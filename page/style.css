@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.body {
+    
+}
+
+
+
+.header {
+    background-color: rgba(0, 0, 0, 0.185);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+    padding: 35px;
+    margin: 0px;
+}
+
+
+.title {
+    color: rgba(10, 14, 240, 0.938);
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.menu-container {
+    gap: 35px;
+    display: flex;
+    
+}
+
+
+.item-del-menu1 {
+    color: blue;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-del-menu2 {
+    color: rgb(214, 15, 15);
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-del-menu3 {
+    color: black;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+    width: 30px;
+    height: auto;
+    margin-bottom: 180px;
+}
+
+.imagen{
+    width: 380px;
+    height: auto;
+}
+
+
+.card-item {
+    
+}
+
+
+.card-title1 {
+    color: blue;
+    
+}
+
+.card-title2 {
+    color: black;
+    
+}
+
+.card-title3 {
+    color: red;
+    
+}
+
+.card-title4 {
+    color: #000000e8;
+    
+}
+
+
+.card-content{
+    font-size: 38px;
+
+}
+
+
+.card-footer {
+    color: rgb(231, 11, 11);
+    font-size: 27px;
+    margin-top: 22px;
+}
+
+
+.footer{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 8px;
+    font-size: 20px;
+}
