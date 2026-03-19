@@ -6,38 +6,91 @@
 }
 
 
-
-
-
 .header {
-    background-color: rgba(0, 0, 0, 0.185);
+    background-color: #080808;
     display: flex;
     justify-content: space-between;
     border-radius: 8px;
-    padding: 15px;
+    padding: 10px 40px;
     margin: 0px;
+    align-items: center;
 }
 
 .main {
-    background-color: beige;
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+}
+
+.welcome-banner {
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 2px solid #ff0000;
+    margin-bottom: 40px;
+}
+
+.welcome-banner h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'montserrat';
+}
+
+.welcome-banner p {
+    font-size: 18px;
+    color: #bbb;
+}
+
+
+
+/* Profe esta tambien por ahi fue dato de IA*/
+
+.main img {
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra profunda */
+    border: 1px solid #333; /* Un borde sutil para que no se pierdan */
+    transition: transform 0.3s ease;
+}
+
+.main img:hover {
+    transform: scale(1.02);
 }
 
 .title {
-    color: rgba(10, 14, 240, 0.938);
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.logo-img {
+    height: 88px;
+    width: 160px;
+    display:block;
 }
 
 
-.menu-container {
+.menu-container a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    transition: all 0.3s ease; /* Para que el brillo sea suave y no de golpe */
+    padding: 10px 15px;
+    border-radius: 5px;
     gap: 35px;
     display: flex;
-    
+}
+
+/*Profe esta parte no la a explicado pero me parecio buen detalle añadirlo*/
+
+/* EFECTO DE BRILLO AL PASAR EL MOUSE */
+.menu-container a:hover {
+    color: #ff0000; /* Cambia el texto a rojo */
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff4d4d; /* Crea el resplandor */
+    transform: translateY(-3px); /* Pequeño salto hacia arriba */
 }
 
 
 .item-del-menu1 {
-    color: blue;
+    color: white;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -49,7 +102,7 @@
 }
 
 .item-del-menu3 {
-    color: black;
+    color: white;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -62,12 +115,11 @@
     justify-content: center;
     -ms-flex-wrap: wrap;
     text-align: center;
-    margin-bottom: 10px;
 }
 
 
 .imagen{
-    width: 270px;
+    width: 100%;
     height: auto;
 }
 
@@ -80,42 +132,55 @@
 
 
 .card-title1 {
-    color: blue;
+    color: white;
     font-size: 28px;
 }
 
 .card-title2 {
-    color: black;
+    color: white;
     font-size: 28px;
 }
 
 .card-title3 {
-    color: red;
+    color: white;
     font-size: 28px;
 }
 
 .card-content{
-    font-size: 28px;
-
+    font-size: 27px;
+    color: white;
+    margin-top: 32px;
 }
 
 
 .card-footer {
-    color: rgb(231, 11, 11);
-    font-size: 22px;
-    margin-top: 22px;
+    color: rgb(103, 187, 226);
+    font-size: 19px;
+    margin-top: 27px;
 }
 
 
 .footer{
-    background-color: rgba(0, 0, 0, 0.185);
-    padding: 22px 0;
-    margin-top: 40px;
+    background-color: #2b2b2b;
+    padding: 30px 0;
+    margin-top: 0px;
+    border-top: 1px solid #333;
 }
 
 
 .footer-container {
-    max-width: 110px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 10 16px;
+    padding: 0 16px;
+    text-align: center;
+    
+}
+
+.footer-line {
+   margin: 8px; 
+    color: #bbb; 
+    font-size: 13px;
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
